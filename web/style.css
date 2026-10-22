@@ -1,0 +1,324 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 12 Aug, 2026, 10:00:46 PM
+    Author     : S.Srija
+*/
+
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+
+
+
+
+.hero {
+    background: linear-gradient(to right, #007bff, #00c6ff);
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+.section-title {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.about-section {
+    margin-top: 60px;
+}
+
+.about-text {
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.8;
+    margin-bottom: 15px;
+    padding: 0 50px;
+}
+
+
+
+
+
+
+.card-box {
+    border-radius: 10px;
+    transition: 0.3s;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.big-card {
+    min-height: 190px;
+    font-size: 16px;
+}
+
+
+
+
+
+
+.feature-box {
+    padding: 50px;
+    text-align: center;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
+.footer {
+    background: #343a40;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+#home,
+#actions,
+#about,
+#features,
+#contact {
+    scroll-margin-top: 80px;
+}
+
+
+
+
+
+.slot {
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+}
+
+.available {
+    background-color: #28a745;
+}
+
+.booked {
+    background-color: #dc3545;
+}
+
+
+
+
+
+.auth-page {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f2f2f2;
+}
+
+.auth-card {
+    width: 400px;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px gray;
+    box-sizing: border-box;
+}
+
+.auth-card h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.auth-card input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.auth-card button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+.auth-card button:hover {
+    background: #0056b3;
+}
+
+
+
+
+.profile-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #007bff, #00c6ff);
+}
+
+.profile-card {
+    width: 350px;
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.profile-card input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.profile-card label {
+    display: block;
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.btn-group {
+    display: flex;
+    gap: 10px;
+}
+
+.btn-group .btn {
+    flex: 1;
+}
+
+
+
+
+
+
+.edit-profile-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f2f2f2;
+}
+
+.edit-profile-card {
+    width: 500px;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px gray;
+    box-sizing: border-box;
+}
+
+.edit-profile-card h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 25px;
+}
+
+.edit-profile-card table {
+    width: 100%;
+}
+
+.edit-profile-card td {
+    padding: 8px;
+}
+
+.edit-profile-card td:first-child {
+    width: 30%;
+    font-weight: bold;
+}
+
+.edit-profile-card input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.edit-profile-card button {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    background: #28a745;
+    color: white;
+    cursor: pointer;
+}
+
+.edit-profile-card button:hover {
+    background: #218838;
+}
+
+.btn-center {
+    text-align: center;
+}
+
+
+
+
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
